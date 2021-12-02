@@ -4,6 +4,6 @@ public class AudioBook {
 	String genre;
 	String title;
 	String author;
-	String narrator;
+	String narrator; //field for the speaker of the audiobook
 
 }
