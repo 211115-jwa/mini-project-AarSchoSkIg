@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>AudioBook Wishlist App</title>
+    </head>
+    <body>
+        <form action="http://localhost:4444/audiobooks" method="POST">
+            <label for="title">Title:</label><!--Label for the title of the audiobook the user wishes to add -->
+            <input type="text" name="title" id="title">
+            <br>
+            <label for="genre">Genre:</label>
+            <!--user can select from a list of most popular genre's of books-->
+            <select name="genre" id="genre"> <!-- user selects as drop down menu to choose which genre book is-->
+                <option>biography</option>
+                <option>documentary</option>
+                <option>fantasy</option>
+                <option>horror</option>
+                <option>mystery</option>
+                <option>romance</option>
+            </select>
+            <br>
+            <label for="author">Author:</label>
+            <input type="text" name="Author" id="Author">
+            <br>
+            <label for="narrator">Narrator:</label>
+            <input type="text" name="narrator" id="narrator"><!--narrator text box only able to accept characters-->
+            <br>
+            <button>Submit</button>
+        </form>
+    </body>
+</html>
